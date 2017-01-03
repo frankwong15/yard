@@ -21,10 +21,8 @@ rvm:
 script: "bundle exec rake"
 
 # Define tasks to be completed before and after tests run . Will allow folding of content on frontend
-#before_script:
-#  - command_1
-#  - command_2
-#
+before_script:
+  - gem install bundler
 #after_script:
 #  - command_1
 #  - command_2
